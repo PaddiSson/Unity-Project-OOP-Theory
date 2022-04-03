@@ -21,6 +21,6 @@ public class Duck : AnimalBehaviour
     //* Do action to Duck
     protected override void DoAction()
     {
-
+        Debug.Log("[DoAction] Action Duck");
     }
 }

@@ -91,15 +91,16 @@ public abstract class AnimalBehaviour : MonoBehaviour
 
     IEnumerator DoActionRandomTime()
     {
+        Debug.Log("[DoActionRandomTime] Trying action...");
+        // Infinite Coroutine
         while(true){
-            Debug.Log("[DoActionRandomTime] Try an action...");
             // randomly do action
             if (Random.Range(0, 10) > 5)
             {
                 Debug.Log("[DoActionRandomTime] Action");
                 DoAction();
             }
-            yield return new WaitForSeconds(8.0f);
+            yield return new WaitForSeconds(6.0f);
         }
     }
 

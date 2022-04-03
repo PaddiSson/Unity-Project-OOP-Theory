@@ -26,6 +26,6 @@ public class Fox : AnimalBehaviour
     //* Do action to Fox
     protected override void DoAction()
     {
-        
+        Debug.Log("[DoAction] Action Fox");
     }
 }

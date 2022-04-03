@@ -72,10 +72,10 @@ public class Chicken : AnimalBehaviour
 
     IEnumerator stopChickenAction()
     {
-        yield return new WaitForSeconds(4.0f);
-        animatorAnimal.SetBool("Eat_b", false);
+        yield return new WaitForSeconds(3.0f);
         speed = 2.5f;
         animatorAnimal.SetFloat("Speed_f", speed);
+        animatorAnimal.SetBool("Eat_b", false);
         
     }
 }

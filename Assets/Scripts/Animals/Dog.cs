@@ -22,7 +22,7 @@ public class Dog : AnimalBehaviour
         {
             DestroyPrey(other.gameObject);
             // Sometimes Dog is destroyed too
-            if (Random.Range(0, 10) > 5) {
+            if (Random.Range(0, 10) > 6) {
                 Destroy(gameObject);
             }
         }

@@ -21,6 +21,6 @@ public class Chick : AnimalBehaviour
     //* Do action to Chick
     protected override void DoAction()
     {
-
+        Debug.Log("[DoAction] Action Chick");
     }
 }
